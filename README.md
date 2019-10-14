@@ -24,3 +24,5 @@ we did image augmentation such as image rotation, transformation, reflection and
 Once the files have been converted and saved to the bottleneck file, we load them and prepare them for our convolutional neural network. This is also a good way to make sure all your data have been loaded into bottleneck file. this was repead for validation and testing set as well.
 
 we flatten our data. since this is a labeled categorical classification, the final activation must always be softmax. It is also best for loss to be categorical crossenthropy but everything else in model.compile can be changed. Then after we have created and compiled our model, we fit our training and validation data to it with the specifications we mentioned earlier. Finally, we create an evaluation step, to check for the accuracy of our model training set versus validation set.
+
+then the model is saved. The model is saved as face_rect.h5 and has attached to google drive link.
