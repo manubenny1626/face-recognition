@@ -26,3 +26,22 @@ Once the files have been converted and saved to the bottleneck file, we load the
 we flatten our data. since this is a labeled categorical classification, the final activation must always be softmax. It is also best for loss to be categorical crossenthropy but everything else in model.compile can be changed. Then after we have created and compiled our model, we fit our training and validation data to it with the specifications we mentioned earlier. Finally, we create an evaluation step, to check for the accuracy of our model training set versus validation set.
 
 Then the model is saved. The model is saved as face_rect.h5 and has attached to google drive link.
+
+dependencies
+
+keras
+tensorflow
+numpy
+glob
+mathplotlib
+cv2
+pillow
+sklearn
+base64
+io
+json
+radom
+
+
+haarcascade xml file ca be downloaded from the google drive. 
+https://drive.google.com/open?id=1nit7sNET1IGRuSTsEZL-YVYdPf8_2LrR
